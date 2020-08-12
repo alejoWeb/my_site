@@ -1,0 +1,33 @@
+html,body{
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+  font-size: 30px;
+  font-family: helvetica;
+  color: gray;
+}
+
+
+.backgr{
+  background-image: url("../imgs/pluto-uploading-1.png");
+  height: 200px;
+  background-size: 300px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  }
+
+
+h1,h4,h6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0px;
+}
+
+h6{
+  font-size: 10px;
+}
+a{
+  align-items: baseline;
+}
