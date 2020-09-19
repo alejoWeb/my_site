@@ -1,45 +1,59 @@
-html,body{
-  padding: 0px;
-  margin: 0px;
-  background-color: white;
-  font-size: 30px;
+html {
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  height: 100%;
+  color: white;
   font-family: 'Cabin', sans-serif;
-  color: gray;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  font-size: 62.5%;
 }
 
+.main img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;.
+  flex-shrink: 3;
+}
 
-.backgr{
-  background-image: url("../imgs/pluto-uploading-1.png");
-  height: 200px;
-  background-size: 300px;
-  background-position: center top;
-  background-repeat: no-repeat;
-  }
+h1 {
+  font-size: 6rem;
+  text-align: center;
+}
 
-.text-container{
+p {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.main {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 50px;
 }
 
-h1{
-  padding: 10px;
-  margin: 0px;
-  text-align: center;
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
-h4,h6{
-  padding: 10px;
-  margin: 0px;
-  font-weight: lighter;
-  text-align: center;
+.github img, .twitter img, .linkedin img {
+  width: 50px;
+  margin: 0 25px;
 }
 
-h6{
-  font-size: 12px;
+.platzi img{
+  height: 60px;
 }
-a{
-  text-decoration: none;
-  color: inherit;
+
+figure {
+  margin: 0;
+}
+
+body {
+  margin: 0 auto;
 }
