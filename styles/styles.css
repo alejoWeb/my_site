@@ -5,16 +5,23 @@ html {
   font-family: 'Cabin', sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   background-repeat: no-repeat;
   font-size: 62.5%;
+}
+
+.main figure {
+  width: 300px;
+  height: 300px;
+  /* display: flex; */
 }
 
 .main img {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  border-radius: 50%;.
-  flex-shrink: 3;
+  border-radius: 50%;
+  /* flex-shrink: 5; */
 }
 
 h1 {
